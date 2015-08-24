@@ -2,22 +2,22 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4653" started-at="2015-08-18T21:24:05Z" finished-at="2015-08-18T21:24:10Z">
+  <suite name="Default suite" duration-ms="4486" started-at="2015-08-18T22:49:11Z" finished-at="2015-08-18T22:49:16Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4653" started-at="2015-08-18T21:24:05Z" finished-at="2015-08-18T21:24:10Z">
+    <test name="Default test" duration-ms="4486" started-at="2015-08-18T22:49:11Z" finished-at="2015-08-18T22:49:16Z">
       <class name="com.google.testing.GTest">
-        <test-method status="PASS" signature="geturl()[pri:0, instance:com.google.testing.GTest@5e025e70]" name="geturl" is-config="true" duration-ms="3191" started-at="2015-08-18T14:24:05Z" finished-at="2015-08-18T14:24:08Z">
+        <test-method status="PASS" signature="geturl()[pri:0, instance:com.google.testing.GTest@5e025e70]" name="geturl" is-config="true" duration-ms="3032" started-at="2015-08-18T15:49:11Z" finished-at="2015-08-18T15:49:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- geturl -->
-        <test-method status="FAIL" signature="Registration()[pri:0, instance:com.google.testing.GTest@5e025e70]" name="Registration" duration-ms="1444" started-at="2015-08-18T14:24:08Z" finished-at="2015-08-18T14:24:10Z">
+        <test-method status="FAIL" signature="Registration()[pri:0, instance:com.google.testing.GTest@5e025e70]" name="Registration" duration-ms="1434" started-at="2015-08-18T15:49:14Z" finished-at="2015-08-18T15:49:16Z">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [ Note: Your user name is sahilc] but found [Note: Your user name is sahilc.]]]>
+              <![CDATA[expected [ Note: Your user name is sahilc.] but found [Note: Your user name is sahilc.]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [ Note: Your user name is sahilc] but found [Note: Your user name is sahilc.]
+              <![CDATA[java.lang.AssertionError: expected [ Note: Your user name is sahilc.] but found [Note: Your user name is sahilc.]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:494)
 	at org.testng.Assert.assertEquals(Assert.java:123)

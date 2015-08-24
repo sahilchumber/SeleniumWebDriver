@@ -1,6 +1,5 @@
 package com.google.testing;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
@@ -39,10 +38,7 @@ public class GTest {
 	  
 	  String t = RegisterElements.validation(driver).getText();
 	  
-	  Assert.assertEquals(t, " Note: Your user name is sahilc");
-	  
-	  System.out.println("Yahooooooooo!!!!!!!!");
-	  
+	  Assert.assertEquals(t, " Note: Your user name is sahilc.");
 	  
 	  
 //	  driver.findElement(By.xpath("html/body/div/table/tbody/tr/td[2]/table/tbody/tr[2]/td/table/tbody/tr/td[2]/a")).click();
